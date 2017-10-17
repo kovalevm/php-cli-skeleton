@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+ini_set('memory_limit', '2G');
+
+$app = require __DIR__ . '/../app/bootstrap.php';
+
+$app['console']->run();
